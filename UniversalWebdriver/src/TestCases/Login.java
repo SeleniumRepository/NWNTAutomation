@@ -99,7 +99,7 @@ public class Login extends TestBase
 	public String[][] readExcelData(String fileName, String sheetName) throws Throwable
 	{
 		//String[][] arrayExcelData = null;
-		
+		System.out.println("Start reading Excel sheet.");
 			File file = new File(fileName);
 			FileInputStream fs= new FileInputStream(file);
 			Workbook book1 = new XSSFWorkbook(fs);
